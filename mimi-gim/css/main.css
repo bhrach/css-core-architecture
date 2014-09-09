@@ -7,19 +7,19 @@ nav {
   text-align: center;
 }
 
-nav a {
+.navigation-list--link {
   padding: 0.2em;
   text-decoration: none;
   color: black;
 }
 
-nav li {
+.navigation-list--item {
   display: inline;
   padding: 1em;
   font-size: 1em;
 }
 
-nav a:hover {
+.navigation-list--link:hover {
   background: red;
   color: white;
   padding: 0.5em;
@@ -30,7 +30,7 @@ ul {
   list-style: none;
 }
 
-header h1 {
+.page-heading {
   text-align: center;
   font-size: 1.4em;
   text-transform: uppercase;
@@ -38,20 +38,21 @@ header h1 {
 
 /* MAIN */
 
-main {
+.main-wrapper {
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
-
 /* MAIN FORM */
 
-button {
+.contact-form--btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-textarea {
+.contact-form--comment {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -59,16 +60,9 @@ textarea {
 
 /* MAIN SECTION */
 
-img {
+.github-image {
   width: 10%;
   border-radius: 50%;
-}
-
-main section {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 /* FOOTER */
@@ -80,17 +74,13 @@ footer {
 
 }
 
-footer section {
-  padding: 1em;
-}
-
-footer img {
+.footer-image {
   float:right;
   padding: 1em;
   width: 5em;
 }
 
-footer ul {
+.footer-location {
   display: inline-block;
   padding-left: 1em;
 }
