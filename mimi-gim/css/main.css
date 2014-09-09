@@ -1,0 +1,94 @@
+/* HEADER */
+
+nav {
+  text-transform: uppercase;
+  padding-top: 1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.navigation-list--link {
+  padding: 0.2em;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-list--item {
+  display: inline;
+  padding: 1em;
+  font-size: 1em;
+}
+
+.navigation-list--link:hover {
+  background: red;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+
+
+.page-heading {
+  text-align: center;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/* MAIN */
+
+.main-wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* MAIN FORM */
+
+.contact-form--btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form--comment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MAIN SECTION */
+
+.github-image {
+  width: 10%;
+  border-radius: 50%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 1em;
+  border: 3em;
+  padding-top: 0.5em;
+
+}
+
+.footer-image {
+  float:right;
+  padding: 1em;
+  width: 5em;
+}
+
+.footer-location {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
