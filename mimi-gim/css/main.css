@@ -1,0 +1,106 @@
+/* HEADER */
+
+nav {
+  text-transform: uppercase;
+  padding-top: 1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+nav a {
+  padding: 0.2em;
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  display: inline;
+  padding: 1em;
+  font-size: 1em;
+}
+
+nav a:hover {
+  background: red;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/* MAIN */
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MAIN FORM */
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MAIN SECTION */
+
+img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+main section {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 1em;
+  border: 3em;
+  padding-top: 0.5em;
+
+}
+
+footer section {
+  padding: 1em;
+}
+
+footer img {
+  float:right;
+  padding: 1em;
+  width: 5em;
+}
+
+footer ul {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
