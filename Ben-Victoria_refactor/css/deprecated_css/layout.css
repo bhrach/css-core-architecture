@@ -1,7 +1,6 @@
-/*** Ben & Victoria moved these selectors
+/*** Ben & Victoria moved these selectors to m-nav.css
 
-
-/* NAVIGATION */
+- NAVIGATION -
 .l-nav {
   text-transform: uppercase;
   padding-top: 1em;
@@ -18,9 +17,11 @@
   display: inline;
   padding: 1em;
   font-size: 1em;
-}
+}**/
 
-/* FOOTER */
+/*** Ben & Victoria moved these selectors to m-footer.css
+
+- FOOTER -
 .l-footer {
   font-size: 1em;
   border: 3em;
@@ -36,4 +37,4 @@
 .l-footer-location {
   display: inline-block;
   padding-left: 1em;
-}
+}***/

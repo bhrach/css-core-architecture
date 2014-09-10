@@ -6,14 +6,21 @@
     <meta charset="utf-8">
     <title>Contact | Matt &amp; Mimi</title>
     <meta name="description" content="Contact page for Matt Wojo and Mimi Gim">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/state.css">
-    <link rel="stylesheet" href="css/m-nav.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/contact.css">
+
     <!-- These stylesheets were consolidated into others
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/color.css">-->
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/state.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/contact.css">-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/l-main.css">
+    <link rel="stylesheet" href="css/m-header.css">
+    <link rel="stylesheet" href="css/m-nav.css">
+    <link rel="stylesheet" href="css/m-contact.css">
+    <link rel="stylesheet" href="css/m-github.css">
+    <link rel="stylesheet" href="css/m-footer.css">
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower|Roboto:400,300' rel='stylesheet' type='text/css'>
   </head>
 
@@ -32,14 +39,14 @@
 
   <!--removed role="main" as <main> is already a native/semantic element-->
     <main class="main-wrapper">
-      <section class="contact">
-        <h1 class="contact-title">Say hello!</h1>
+      <section class="m-contact">
+        <h1 class="m-contact-title">Say hello!</h1>
         <p>We would love to hear from you.</p>
-        <form action="" class="contact-form" method="post">
-        <input type="text" name="name" class="contact-form--name" placeholder="name"/>
-        <input type="email" name="email" class="contact-form--email" placeholder="email"/>
-        <textarea rows=5 cols=33 class="contact-form--comment" placeholder="comment"></textarea>
-        <button class="contact-form--btn">submit</button>
+        <form action="" class="m-contact-form" method="post">
+        <input type="text" name="name" class="m-contact-form--name" placeholder="name"/>
+        <input type="email" name="email" class="m-contact-form--email" placeholder="email"/>
+        <textarea rows=5 cols=33 class="m-contact-form--comment" placeholder="comment"></textarea>
+        <button class="m-contact-form--btn">submit</button>
         </form>
       </section>
       <section class="m-github">
@@ -67,11 +74,12 @@
         <li>511 Boren Ave N.</li>
         <li>Seattle, WA 98109</li>
       </ul>
-      <img src="img/codefellows.png" class="l-footer-image" alt="code fellows logo">
+      <img src="img/codefellows.png" class="m-footer-image" alt="code fellows logo">
     </footer>
 
-    <!--Javascripts-->
+    <!--Ben & Victoria commented this out because there is no use of jquery for this project
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>-->
   </body>
 </html>
